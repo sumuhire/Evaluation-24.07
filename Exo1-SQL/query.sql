@@ -1,0 +1,1 @@
+SELECT articles.title, users.firstname, users.lastname FROM articles LEFT JOIN users ON articles.id_user = users.id WHERE articles.id LIKE '10'
